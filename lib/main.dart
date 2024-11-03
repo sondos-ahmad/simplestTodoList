@@ -35,6 +35,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.black,
         appBar: AppBar(title: Center(child: Text('TodoList')),),
         body: ListView.builder(
             itemCount: todo.length,
